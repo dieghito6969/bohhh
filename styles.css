@@ -1,0 +1,11 @@
+.image-gallery {
+    display: flex; /* Allinea le immagini orizzontalmente */
+    justify-content: space-around; /* Spazio uniforme tra le immagini */
+    margin: 20px 0;
+}
+
+.image-gallery img {
+    width: 30%; /* Regola la larghezza delle immagini */
+    border-radius: 10px; /* Opzionale: bordi arrotondati */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Aggiunge un'ombra */
+}

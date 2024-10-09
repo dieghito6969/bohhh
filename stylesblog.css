@@ -1,0 +1,32 @@
+/* Stile generico per tutti i bottoni */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Colore blu di base */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Colore più scuro al passaggio del mouse */
+}
+
+/* Stile per i bottoni nella sezione corsi (stesso stile dei bottoni "Leggi di più") */
+.course .btn, .blog .btn {
+    background-color: #113cda; /* Verde per i corsi e blog */
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.course .btn:hover, .blog .btn:hover {
+    background-color: #08c1ff; /* Verde più scuro al passaggio del mouse */
+}
